@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Jar for Project ASMySQLConnection" basedir="." >
+	
+	<property name="destFile" value="distr/ASMySQLConnection.jar" />
+	
+    <target name="create_run_jar">
+    	
+        <delete file="${destFile}" failonerror="false" />
+    	
+    	<jar destfile="${destFile}">
+            <manifest>
+            	<attribute name="Class-Path" value="./"/>
+            	<attribute name="Implementation-Version" value="1.0"/>
+            </manifest>
+            <fileset dir="bin" includes="**/*.class" />
+    	</jar>
+    </target>
+</project>
