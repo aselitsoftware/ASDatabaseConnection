@@ -1,4 +1,4 @@
-package com.aselisoftware.mysql;
+package com.aselitsoftware.mysql;
 import org.eclipse.swt.widgets.Dialog;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.MessageBox;

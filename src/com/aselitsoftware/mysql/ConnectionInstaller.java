@@ -1,4 +1,4 @@
-package com.aselisoftware.mysql;
+package com.aselitsoftware.mysql;
 import java.sql.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
