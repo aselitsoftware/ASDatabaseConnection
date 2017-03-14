@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project default="create_run_jar" name="Create Jar for Project ASMySQLConnection" basedir="." >
+<project default="create_run_jar" name="Create Jar for Project ASDatabaseConnection" basedir="." >
 	
-	<property name="destFile" value="distr/ASMySQLConnection.jar" />
+	<property name="destFile" value="distr/ASDatabaseConnection.jar" />
 	
     <target name="create_run_jar">
     	
